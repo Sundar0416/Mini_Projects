@@ -13,7 +13,7 @@ public class abc {
 			}
 		}
 		long fullRepetition = n/s.length();
-		a_count *= fullRepetition;
+		a_count *= fullRepetition;               
 		int remainingCharacters=n%s.length();
 		for(int i=0;i<remainingCharacters;i++) {
 			if(s.charAt(i)=='a') {

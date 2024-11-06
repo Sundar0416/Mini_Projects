@@ -2,7 +2,7 @@ package palgm;
 
 public class BuySell {
 	public static void main(String[] args) {
-		int[] arr= {1,5,5,10,8,7,6,4,5,2,6,1,10};
+		int[] arr= {1,5,5,10,8,7,70,6,4,5,2,6,1,10};
 		int res=totalprofit(arr);
 		System.out.println(res);
 	}
@@ -15,4 +15,3 @@ public class BuySell {
 		return totalprofit; 
 	}
 }
-
